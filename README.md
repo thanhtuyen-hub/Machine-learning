@@ -35,7 +35,7 @@ Có một số nội dung chính quan trọng trong lãng quên: <br>
 * Phân phối Dữ liệu Thay đổi: Nếu phân phối của dữ liệu thay đổi quá nhanh, mô hình có thể không thích ứng được, và hiệu suất trên các nhiệm vụ trước đó có thể giảm đáng kể.<br>
 * Trọng số Quan trọng: Các trọng số của mô hình có thể được điều chỉnh quá mức đối với nhiệm vụ mới, làm mất đi sự cân bằng và ổn định của mô hình trên các nhiệm vụ cũ.<br>
 * Kỹ thuật Phòng ngừa (Mitigation Techniques): Các kỹ thuật phòng ngừa như Regularization Techniques (ví dụ: Elastic Weight Consolidation), Memory Replay, và Network Architecture Design được thiết kế để giảm thiểu hiện tượng lãng quên.  <br>
-####     <pre>2.1.1) Hiệu suất giữa các Dữ liệu không cân đối (Imbalanced Data Performance)</pre>
+####     <pre>2.1.2) Hiệu suất giữa các Dữ liệu không cân đối (Imbalanced Data Performance)</pre>
 Hiệu suất giữa các dữ liệu không cân đối (Imbalanced Data Performance) là một khía cạnh quan trọng cần được xem xét. Đây là tình trạng khi có sự chênh lệch lớn về số lượng mẫu giữa các lớp dữ liệu. Hiện tượng này có thể ảnh hưởng đến khả năng học của mô hình, đặc biệt là trong trường hợp một số lớp dữ liệu có số lượng mẫu ít. <br>
 Có một số nội dung quan trọng trong hiệu suất giữa các dữ liệu không cần đối <br>
 * Mất cân bằng giữa các Lớp (Class Imbalance): Một số lớp có thể có số lượng mẫu lớn hơn đáng kể so với các lớp khác, tạo ra tình trạng mất cân bằng giữa các lớp dữ liệu. <br>
